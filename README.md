@@ -16,6 +16,14 @@ Alternatively, if you don't want to buy anything but still read the quotes, [jus
 
 ## configuration
 
+tl;dr:
+
+1. clone this GitHub repository
+2. add it to your Arduino IDE
+3. update the Wi-Fi credentials
+4. (update the display configuration if you're using another one)
+5. upload it to your ESP32 through the Arduino IDE
+
 If you got the exact hardware as linked above, you just need to open up the `sim-dashbard.ino` sketch in your Arduino IDE and update line `6` and `7` with your Wi-Fi credentials and upload the code to your ESP32.
 
 If you have a different display, you need to update the `GxEPD2_display_selection_new_style.h` file and **comment out line 59** by adding `//` in front of it, like so:
